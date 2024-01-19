@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const App = () => {
   return (
     <>
@@ -6,7 +8,7 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <a href="profile">Profile</a>
+            <Link to="profile">Profile</Link>
           </li>
         </ul>
       </nav>
